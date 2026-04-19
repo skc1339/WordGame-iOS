@@ -15,3 +15,9 @@ An iOS version of the WordGame application built using SwiftUI in Xcode.
 
 ## Description
 This project is a mobile adaptation of a Java-based console word game, redesigned with a graphical user interface for iOS.
+
+## App Icon
+
+The WordGame app uses a clean letter-tile icon to visually represent the word puzzle gameplay.
+
+![WordGame Icon](screenshots/wordgame-icon.png)
