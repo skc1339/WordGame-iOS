@@ -1,23 +1,48 @@
-# WordGame (iOS - SwiftUI)
+# WordGame iOS App
 
-An iOS version of the WordGame application built using SwiftUI in Xcode.
+A simple multi-mode word game built using SwiftUI. This app includes three different game styles to challenge users in different ways: guessing letters, unscrambling words, and completing phrases.
 
 ## Features
-- Random word scrambling
-- User input handling
-- Score tracking
-- Restart functionality
+
+- **Guess the Word**
+  - Choose a category (Animals, Food, Movies, Places)
+  - Guess letters to reveal the hidden word
+  - Tracks incorrect guesses
+
+- **Unscramble**
+  - Rearrange scrambled letters to form the correct word
+  - Expanding word bank for variety
+
+- **Complete the Phrase**
+  - Fill in the missing word from well-known phrases and movie quotes
+  - Text input-based (no multiple choice)
 
 ## Technologies Used
+
 - Swift
 - SwiftUI
 - Xcode
 
-## Description
-This project is a mobile adaptation of a Java-based console word game, redesigned with a graphical user interface for iOS.
+## Screenshots
 
-## App Icon
+*(Add your screenshots here — Home screen + each game mode)*
 
-The WordGame app uses a clean letter-tile icon to visually represent the word puzzle gameplay.
+## How to Run
 
-![WordGame Icon](screenshots/wordgame-icon.png)
+1. Open the project in Xcode
+2. Select an iPhone simulator
+3. Click Run ▶️
+
+## Project Structure
+
+- `ContentView.swift` → Main menu / navigation
+- `GuessWordView.swift` → Letter guessing game
+- `UnscrambleView.swift` → Word scramble game
+- `PhraseCompletionView.swift` → Phrase completion game
+
+## Future Enhancements
+
+- Score tracking
+- Timer-based gameplay
+- Difficulty levels
+- Expanded word and phrase libraries
