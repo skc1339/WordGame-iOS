@@ -1,23 +1,24 @@
 # WordGame iOS App
 
-A simple multi-mode word game built using SwiftUI. This app includes three different game styles to challenge users in different ways: guessing letters, unscrambling words, and completing phrases.
+A multi-mode word game built using SwiftUI, featuring three interactive gameplay styles.
 
 ## Features
 
-- **Guess the Word**
-  - Choose a category (Animals, Food, Movies, Places)
-  - Guess letters to reveal the hidden word
-  - Tracks incorrect guesses
+### Guess the Word
+- Select a category (Animals, Food, Movies, Places)
+- Guess letters to reveal the hidden word
+- Tracks incorrect guesses
 
-- **Unscramble**
-  - Rearrange scrambled letters to form the correct word
-  - Expanding word bank for variety
+### Unscramble
+- Rearrange scrambled letters to form the correct word
+- Immediate feedback on answers
 
-- **Complete the Phrase**
-  - Fill in the missing word from well-known phrases and movie quotes
-  - Text input-based (no multiple choice)
+### Complete the Phrase
+- Fill in the missing word from well-known phrases
+- Input-based (no multiple choice)
+- Includes correct and incorrect feedback
 
-## Technologies Used
+## Technologies
 
 - Swift
 - SwiftUI
@@ -25,24 +26,20 @@ A simple multi-mode word game built using SwiftUI. This app includes three diffe
 
 ## Screenshots
 
-*(Add your screenshots here — Home screen + each game mode)*
+![Home Screen](images/home.png)
+![Guess the Word](images/guessword.png)
+![Unscramble](images/unscramble.png)
+![Complete the Phrase](images/phrase.png)
 
-## How to Run
+## Run the App
 
-1. Open the project in Xcode
-2. Select an iPhone simulator
+1. Open in Xcode
+2. Select a simulator
 3. Click Run ▶️
 
-## Project Structure
+## Structure
 
-- `ContentView.swift` → Main menu / navigation
-- `GuessWordView.swift` → Letter guessing game
-- `UnscrambleView.swift` → Word scramble game
-- `PhraseCompletionView.swift` → Phrase completion game
-
-## Future Enhancements
-
-- Score tracking
-- Timer-based gameplay
-- Difficulty levels
-- Expanded word and phrase libraries
+- `ContentView.swift` – Main menu and navigation  
+- `GuessWordView.swift` – Letter guessing game  
+- `UnscrambleView.swift` – Word scramble game  
+- `PhraseCompletionView.swift` – Phrase completion game
